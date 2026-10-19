@@ -1,0 +1,28 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-prod.properties
+
+# Java / Maven
+**/target/
+*.class
+
+# Node / Next.js
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# JVM crash logs
+hs_err_pid*.log
+replay_pid*.log
+
+# Nested Git metadata
+/client/.git
